@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "dev:ssr": "ng build --watch & ng run multikart-frontend:server --watch & nodemon dist/multikart-frontend/server/server.mjs",
